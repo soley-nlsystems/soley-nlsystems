@@ -38,19 +38,6 @@ def age_parts(
     months = now.month - birth.month
     days = now.day - birth.day
 
-    if (
-        now.hour,
-        now.minute,
-        now.second,
-        now.microsecond,
-    ) < (
-        birth.hour,
-        birth.minute,
-        birth.second,
-        birth.microsecond,
-    ):
-        days -= 1
-
     if days < 0:
         prev_year = now.year
         prev_month = now.month - 1
