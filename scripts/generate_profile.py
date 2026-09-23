@@ -1,3 +1,19 @@
+# Copyright © 2026 NLSystems | Sóley.
+# All rights reserved.
+#
+# View-only for inspection, review, debugging, and analysis.
+#
+# Public visibility does not grant permission to copy, reuse,
+# redistribute, republish, modify, create derivative works from,
+# or incorporate this source into another project.
+#
+# AI and automated tools may inspect and analyze this source when
+# explicitly requested by a user. This does not grant permission to
+# reproduce substantially identical copies, redistribute the work,
+# or use it for model training or fine-tuning.
+#
+# See LICENSE for full terms.
+
 from __future__ import annotations
 
 from pathlib import Path
@@ -149,35 +165,85 @@ def update_uptime(
     now: datetime,
 ) -> str:
     """
-    Update ONLY the age text.
+    Update the Uptime row and dynamically adjust its dot leader.
 
-    Existing:
-    - x/y position
-    - number of dots
-    - font
-    - class
-    - surrounding layout
-
-    all remain unchanged.
+    The intended row width is derived from the surrounding monospaced
+    profile rows instead of preserving the previous Uptime width.
     """
 
     uptime = uptime_string(now)
+
+    row_pattern = re.compile(
+        r'<text'
+        r'[^>]*'
+        r'class="(?:mono|mono accentline)"'
+        r'[^>]*>'
+        r'([^<]+)'
+        r'</text>'
+    )
+
+    row_lengths = []
+
+    for match in row_pattern.finditer(svg):
+        row_text = match.group(1)
+
+        if (
+            "." in row_text
+            and not row_text.startswith("Uptime")
+        ):
+            row_lengths.append(len(row_text))
+
+    if not row_lengths:
+        raise RuntimeError(
+            "Could not determine profile row width."
+        )
+
+    # Use the most common width of the other profile rows.
+    target_width = max(
+        set(row_lengths),
+        key=row_lengths.count,
+    )
 
     pattern = (
         r'(<text'
         r'[^>]*'
         r'class="(?:mono|mono accentline)"'
-        r'[^>]*>'
-        r'Uptime\s+\.+\s+)'
-        r'\d+\s+years?,\s+'
+        r'[^>]*>)'
+        r'(Uptime\s+)'
+        r'(\.+)'
+        r'(\s+)'
+        r'(\d+\s+years?,\s+'
         r'\d+\s+months?,\s+'
-        r'\d+\s+days?'
+        r'\d+\s+days?)'
         r'(</text>)'
     )
 
+    def replacement(match: re.Match[str]) -> str:
+        label = match.group(2)
+        separator = match.group(4)
+
+        dot_count = max(
+            2,
+            target_width
+            - len(label)
+            - len(separator)
+            - len(uptime),
+        )
+
+        dots = "." * dot_count
+
+        return (
+            f"{match.group(1)}"
+            f"{label}"
+            f"{dots}"
+            f"{separator}"
+            f"{uptime}"
+            f"{match.group(6)}"
+        )
+
     updated, count = re.subn(
         pattern,
-        rf"\g<1>{uptime}\g<2>",
+        replacement,
         svg,
         count=1,
     )
