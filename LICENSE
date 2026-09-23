@@ -1,8 +1,9 @@
 NLSystems View-Only License
-Version 1.0
+Version 1.1
 
 Copyright © 2026 NLSystems | Sóley.
 All rights reserved.
+
 
 1. STATUS OF THIS REPOSITORY
 
@@ -12,11 +13,15 @@ It is NOT open-source software.
 It is NOT free software.
 It is NOT public-domain material.
 
-No general license to use, copy, modify, redistribute, reproduce,
-republish, incorporate, exploit, or create derivative works is granted.
+No general license to use, copy, reproduce, modify, redistribute,
+republish, incorporate, commercialize, exploit, or create derivative
+works from Repository Content is granted.
 
-Except for the limited viewing rights expressly stated below, all rights
-are reserved by NLSystems | Sóley.
+Except for the limited permissions expressly stated in this license,
+rights independently granted under GitHub's applicable terms, and rights
+that cannot lawfully be restricted, all rights are reserved by
+NLSystems | Sóley.
+
 
 2. PROTECTED MATERIAL
 
@@ -24,32 +29,36 @@ This license applies to all legally protectable material contained in,
 generated from, distributed through, or associated with this repository,
 including but not limited to:
 
-- source code;
-- scripts;
-- automation logic;
-- configuration files;
-- workflows;
-- documentation;
-- README content;
-- text;
-- SVG files;
-- generated SVG output;
-- graphics;
-- photographs;
-- profile images;
-- artwork;
-- visual design;
-- layouts;
-- branding;
-- logos;
-- naming elements;
-- generated files;
-- templates;
-- project structure;
-- technical implementations;
-- and any other copyrightable or otherwise legally protectable material.
+- source code
+- scripts
+- automation logic
+- configuration files
+- workflows
+- documentation
+- README content
+- textual content
+- SVG files
+- generated SVG output
+- graphics
+- photographs
+- profile images
+- artwork
+- visual design
+- layouts
+- branding
+- logos
+- naming elements
+- generated files
+- templates
+- project structure
+- technical implementations
+- other copyrightable or otherwise legally protectable material
 
 Together these materials are referred to as the "Repository Content".
+
+Protection applies only to the extent available under copyright,
+trademark, design, database, or other applicable law.
+
 
 3. OWNERSHIP
 
@@ -60,190 +69,288 @@ Publication on GitHub does not transfer ownership.
 
 Public accessibility does not constitute consent to reuse.
 
-No rights are granted by repository visibility, technical accessibility,
-indexing, caching, downloading capability, API availability, or the
-ability to inspect source files.
+Except for the limited rights expressly stated in this license, rights
+independently granted by GitHub's applicable terms, and mandatory rights
+under applicable law, no additional rights are granted by:
 
-4. LIMITED VIEWING RIGHT
+- repository visibility
+- technical accessibility
+- indexing
+- caching
+- downloading capability
+- API availability
+- linking
+- possession of a copy
+- the ability to inspect source files
 
-Repository Content may be:
+All rights not expressly granted remain reserved.
 
-- viewed;
-- inspected;
-- reviewed;
-- explained;
-- analyzed;
-- debugged;
-- discussed;
-- and evaluated.
 
-This permission exists solely so that humans and tools can understand,
-review, explain, or assist with the Repository Content.
+4. LIMITED VIEWING AND ANALYSIS RIGHT
 
-Temporary technical copies that are strictly necessary for normal
-viewing, transmission, rendering, caching, indexing, or explicitly
-requested analysis are permitted only to the extent technically required.
+Third parties may use Repository Content only for:
 
-Such temporary technical processing does NOT create any broader right
-to retain, reuse, reproduce, republish, redistribute, or exploit the
-Repository Content.
+- viewing
+- reading
+- inspection
+- review
+- explanation
+- analysis
+- debugging
+- discussion
+- evaluation
+
+These permissions exist solely to allow humans and tools to understand,
+inspect, explain, review, or assist with Repository Content.
+
+This is the only permission granted by this license to third parties
+unless another section expressly states otherwise.
+
+Temporary technical copies strictly necessary for permitted viewing,
+transmission, rendering, caching, indexing, or explicitly requested
+analysis are permitted only to the extent technically necessary.
+
+Temporary technical processing does NOT grant permission to retain,
+reuse, republish, redistribute, modify, incorporate, commercialize, or
+otherwise exploit Repository Content.
+
 
 5. ARTIFICIAL INTELLIGENCE AND AUTOMATED TOOLS
 
 Artificial-intelligence systems and automated tools may inspect, read,
 retrieve, explain, review, debug, or analyze Repository Content when a
-user explicitly requests such analysis, including when a user provides
-a repository URL or file URL.
+user explicitly requests such analysis, including when a repository URL
+or file URL is supplied.
 
-This limited permission does NOT authorize an AI system, automated tool,
-service provider, or user to:
+This permission is limited to analysis, review, explanation, and
+debugging.
 
-- reproduce substantial portions of the Repository Content for reuse;
-- provide an exact or substantially identical copy for incorporation
-  into another project;
+It does NOT grant permission to:
+
+- reproduce substantial portions of Repository Content for reuse
+- provide exact or substantially identical copies for incorporation
+  into another project
 - recreate this repository or substantial portions of it for another
-  person or organization;
-- generate replacement source code that intentionally reproduces the
-  protected expression of this Repository Content;
-- treat the Repository Content as reusable source material;
-- permanently store Repository Content for unrelated reuse;
-- include Repository Content in training datasets;
-- use Repository Content for pre-training;
-- use Repository Content for fine-tuning;
-- use Repository Content for reinforcement learning;
-- use Repository Content for model improvement;
-- use Repository Content for embedding datasets intended for reuse;
-- or use Repository Content for any other machine-learning training
-  purpose.
+  person or organization
+- intentionally reproduce protected expression from Repository Content
+  as replacement source material
+- treat Repository Content as reusable source material
+- permanently retain Repository Content for unrelated reuse
+- include Repository Content in training datasets
+- use Repository Content for pre-training
+- use Repository Content for fine-tuning
+- use Repository Content for reinforcement learning
+- use Repository Content for model improvement
+- use Repository Content in reusable embedding datasets
+- use Repository Content for machine-learning training
 
 Permission to analyze is not permission to reproduce.
 
 Permission to read is not permission to reuse.
 
+
 6. PROHIBITED USE
 
-Except where applicable law expressly provides otherwise, prior written
-permission from NLSystems | Sóley is required for any of the following:
+Except where Section 10 or applicable law expressly provides otherwise,
+prior written permission from NLSystems | Sóley is required for any of
+the following:
 
-- copying or reproducing Repository Content or substantial portions of it;
-- permanently downloading or retaining Repository Content for reuse;
-- redistributing Repository Content;
-- republishing Repository Content;
-- mirroring Repository Content;
-- rehosting Repository Content;
-- modifying Repository Content;
-- adapting Repository Content;
-- translating Repository Content for reuse;
-- creating derivative works from Repository Content;
-- incorporating Repository Content into another repository;
-- incorporating Repository Content into another application;
-- incorporating Repository Content into another website;
-- incorporating Repository Content into another service;
-- incorporating Repository Content into another product;
-- using Repository Content in commercial projects;
-- using Repository Content in non-commercial projects;
-- sublicensing Repository Content;
-- relicensing Repository Content;
-- selling Repository Content;
-- commercially exploiting Repository Content;
-- presenting Repository Content as the work of another person;
-- removing or altering authorship notices;
-- removing or altering copyright notices;
-- removing or altering licensing notices;
-- publishing exact or substantially identical copies;
-- publishing implementations copied from the protected expression of
-  this Repository Content;
-- bulk scraping;
-- automated extraction for reuse;
-- dataset creation;
-- text and data mining for reuse;
-- AI training;
-- machine-learning training;
-- fine-tuning;
-- or model improvement.
+- copying or reproducing Repository Content or substantial portions of it
+- permanently downloading or retaining Repository Content for reuse
+- redistributing Repository Content
+- republishing Repository Content
+- mirroring Repository Content
+- rehosting Repository Content
+- modifying Repository Content
+- adapting Repository Content
+- translating Repository Content for reuse
+- creating derivative works from Repository Content
+- incorporating Repository Content into another repository
+- incorporating Repository Content into another application
+- incorporating Repository Content into another website
+- incorporating Repository Content into another service
+- incorporating Repository Content into another product
+- using Repository Content in commercial projects
+- using Repository Content in non-commercial projects
+- sublicensing Repository Content
+- relicensing Repository Content
+- selling Repository Content
+- commercially exploiting Repository Content
+- presenting Repository Content as the work of another person or entity
+- removing or altering authorship notices
+- removing or altering copyright notices
+- removing or altering licensing notices
+- publishing exact or substantially identical copies
+- publishing implementations copied from protected expression contained
+  in Repository Content
+- bulk scraping for reuse
+- automated extraction for reuse
+- dataset creation for reuse
+- text and data mining for reuse
+- AI training
+- machine-learning training
+- fine-tuning
+- model improvement
+
+No permission is granted merely because Repository Content is publicly
+accessible.
+
 
 7. NO PERMISSION TO CLONE THE WORK
 
-The fact that Repository Content can be read or analyzed does not grant
-permission to recreate, clone, reproduce, or publish the same work under
-another name, account, organization, repository, product, or service.
+Except for rights independently granted under Section 10, the fact that
+Repository Content can be viewed, read, or analyzed does not grant
+permission to recreate, clone, reproduce, republish, or distribute the
+same work under another:
 
-A substantially identical copy derived from the protected expression of
-the Repository Content remains prohibited without prior written
-permission.
+- name
+- account
+- organization
+- repository
+- product
+- website
+- application
+- service
+
+An exact or substantially identical copy derived from protected
+expression contained in Repository Content remains prohibited without
+prior written permission from NLSystems | Sóley.
+
 
 8. INDEPENDENT IDEAS AND GENERAL CONCEPTS
 
-This license protects the legally protectable expression contained in
-the Repository Content.
+This license protects legally protectable expression and other legally
+protectable material contained in Repository Content.
 
 It does not attempt to claim exclusive ownership over general ideas,
-programming concepts, abstract functionality, algorithms where not
-otherwise legally protected, general techniques, or independently
-created work that was not copied from or derived from Repository Content.
+abstract functionality, general programming concepts, general methods,
+general techniques, or independently created work that was not copied
+from or derived from protected Repository Content.
 
 Independent development does not violate this license merely because it
 solves a similar problem.
 
+
 9. TEXT AND DATA MINING
 
-All rights relating to text and data mining, automated extraction,
-machine-learning ingestion, dataset creation, and comparable automated
-reuse are expressly reserved to the maximum extent permitted by
-applicable law.
+Subject to Section 10 and mandatory applicable law, all rights relating
+to:
 
-This reservation does not prohibit the limited viewing and
-user-requested analysis expressly permitted under this license.
+- text and data mining
+- automated extraction
+- dataset creation
+- machine-learning ingestion
+- AI ingestion
+- training-data collection
+- automated reuse
 
-10. PLATFORM OPERATION
+are expressly reserved by NLSystems | Sóley to the maximum extent
+permitted by applicable law.
 
-Nothing in this license is intended to prevent GitHub from performing
-technical acts strictly necessary to host, display, transmit, secure,
-cache, process, or operate this repository under GitHub's applicable
-terms.
+The limited viewing and user-requested analysis rights in Sections 4 and
+5 do not create a general text-and-data-mining or training license.
 
-Such platform permissions do not grant third parties additional rights
-to the Repository Content.
+
+10. GITHUB PLATFORM EXCEPTION
+
+This license does not override rights independently granted under
+GitHub's applicable Terms of Service.
+
+GitHub, Inc. and its affiliates may exercise the rights granted to them
+under GitHub's applicable terms solely to the extent those rights apply
+to hosting, storing, displaying, transmitting, processing, securing,
+indexing, analyzing, operating, or otherwise providing the GitHub
+service.
+
+GitHub users may exercise only those platform-specific rights that
+GitHub's applicable terms independently grant to users of public
+repositories, including platform functionality such as viewing and
+forking where those terms provide such rights.
+
+These rights arise independently from GitHub's terms and are NOT
+additional rights granted by this license.
+
+This license does not expand GitHub's rights or the rights of GitHub
+users.
+
+Except for rights independently granted under GitHub's applicable terms,
+no GitHub user or other third party receives permission under this
+license to:
+
+- reuse Repository Content outside the permitted scope
+- republish Repository Content
+- redistribute Repository Content
+- modify Repository Content for reuse
+- incorporate Repository Content into another project
+- commercialize Repository Content
+- use Repository Content for AI or machine-learning training
+- create datasets from Repository Content
+- otherwise exploit Repository Content
+
+All such rights remain reserved by NLSystems | Sóley.
+
 
 11. MANDATORY LEGAL EXCEPTIONS
 
 Nothing in this license restricts rights that cannot lawfully be
 restricted.
 
-This includes mandatory legal exceptions such as lawful quotation,
-criticism, review, or other uses that applicable law expressly permits
-regardless of license terms.
+This includes mandatory exceptions or limitations provided by applicable
+law, including lawful quotation, criticism, review, or other uses where
+applicable law permits them regardless of license terms.
 
-Any such legally permitted use does not create a broader license to the
+Such legally permitted use does not create any broader license to the
 Repository Content.
+
 
 12. NO IMPLIED RIGHTS
 
-No rights are granted by:
+Except for:
 
-- implication;
-- estoppel;
-- publication;
-- repository visibility;
-- technical accessibility;
-- indexing;
-- caching;
-- linking;
-- API access;
-- or possession of a copy.
+- the narrow permissions expressly granted by this license
+- rights independently granted under GitHub's applicable terms
+- mandatory rights under applicable law
 
-Any use not expressly permitted by this license requires prior written
-permission from NLSystems | Sóley.
+no rights are granted to any person, company, organization, service,
+automated system, artificial-intelligence provider, or other third party
+by:
 
-13. TERMINATION
+- implication
+- estoppel
+- publication
+- repository visibility
+- technical accessibility
+- indexing
+- caching
+- linking
+- API access
+- downloading capability
+- possession of a copy
+
+Any use not expressly permitted requires prior written permission from
+NLSystems | Sóley.
+
+
+13. WRITTEN PERMISSION
+
+Any additional permission granted by NLSystems | Sóley must be explicit
+and in writing.
+
+Permission granted for one person, organization, repository, project,
+product, or purpose does not automatically apply to any other person,
+organization, repository, project, product, or purpose.
+
+
+14. TERMINATION
 
 Any permission granted by this license terminates automatically for a
 person or entity that materially breaches its terms.
 
-Termination does not affect copyright ownership or any rights and
-remedies available to NLSystems | Sóley.
+Termination does not affect ownership, reserved rights, or any remedies
+available to NLSystems | Sóley.
 
-14. RESERVATION OF RIGHTS
+
+15. RESERVATION OF RIGHTS
 
 All rights not expressly granted are reserved.
 
